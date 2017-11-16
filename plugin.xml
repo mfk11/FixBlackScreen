@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-fix-blackscreen" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>FixBlackScreen</name>
+	<js-module name="FixBlackScreen" src="www/FixBlackScreen.js">
+		<clobbers target="FixBlackScreen" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="FixBlackScreen">
+				<param name="android-package" value="cordova.plugin.fix.blackscreen.FixBlackScreen" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/FixBlackScreen.java" target-dir="src/cordova/plugin/fix/blackscreen" />
+		<source-file src="src/android/styles.xml" target-dir="res/values" />
+	</platform>
+</plugin>sss
