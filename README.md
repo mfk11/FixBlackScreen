@@ -1,1 +1,1 @@
-# FixBlackScreen
+# This is a Cordova plugin to fix android blackscreen.
