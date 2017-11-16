@@ -1,5 +1,10 @@
+
 var exec = require('cordova/exec');
 
-exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'FixBlackScreen', 'coolMethod', [arg0]);
+function FixBlackScreen(){}
+FixBlackScreen.prototype.coolMethod = function(successCallback, errorCallback, options) {
+    options = options || {};
+
+    exec(successCallback, errorCallback, "FixBlackScreen", "coolMethod", []);
 };
+module.exports = new FixBlackScreen();

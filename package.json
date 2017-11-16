@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-fix-blackscreen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a Cordova plugin to fix android blackscreen.",
   "cordova": {
     "id": "cordova-plugin-fix-blackscreen",
