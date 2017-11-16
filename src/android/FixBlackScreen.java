@@ -1,4 +1,4 @@
-package cordova-plugin-fix-blackscreen;
+package cordova.plugin.fix.blackscreen;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
