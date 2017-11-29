@@ -1,5 +1,5 @@
 <resources>
     <style name="StartTheme" parent="android:Theme.Translucent.NoTitleBar.Fullscreen">
-    	
+    	<item  name="android:windowIsTranslucent">false</item>
 		</style>
 </resources>
